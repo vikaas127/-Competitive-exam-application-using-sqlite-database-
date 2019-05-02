@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#aeeff5e2"
+    android:orientation="vertical"
+    >
+    <include android:id="@+id/apptoolbar" layout="@layout/app_bar_layout"/>
+
+
+
+            <TextView
+                android:id="@+id/text_view_highscore"
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+
+                android:background="@drawable/sp"
+                android:text="BEST score: 0"
+                android:textColor="#056571"
+
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="  SELECT SERIES "
+                android:textColor="#056571"
+android:textStyle="bold"
+                android:textSize="35dp" />
+
+            <Spinner
+                android:id="@+id/spinner_difficulty"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/sp"
+                android:gravity="center" />
+
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/btn"
+        android:text="Start "
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+        </LinearLayout>

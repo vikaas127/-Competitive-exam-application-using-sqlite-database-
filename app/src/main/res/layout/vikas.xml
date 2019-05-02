@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:layout_gravity="center"
+    android:gravity="center">
+<TextView
+    android:id="@+id/tc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="vikaas "
+    android:textStyle="bold"
+    android:textColor="#800000"
+    android:textSize="25dp"
+android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/text"
+    android:alpha="0.8"/>/>
+    <TextView
+        android:id="@+id/tr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="vikas090497@gmail.com "
+        android:textStyle="bold"
+        android:textColor="#800000"
+        android:textSize="25dp"
+android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/text"
+        android:alpha="0.8"/>/>
+</LinearLayout>

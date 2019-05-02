@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dayanand.ashok.vikasdny">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logodn"
+        android:label="Dayanand Yadav Maths E Book "
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logodn"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:label=" D.N. maths ebook   "
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Simplification" />
+        <activity android:name=".Number" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Average" />
+        <activity android:name=".Algebra" />
+        <activity android:name=".Alligan" />
+        <activity android:name=".Boat" />
+        <activity android:name=".BoatStream" />
+        <activity android:name=".Circlearea" />
+        <activity android:name=".Compoundinterset" />
+        <activity android:name=".Data" />
+        <activity android:name=".Geometry1" />
+        <activity android:name=".Geometry2" />
+        <activity android:name=".Hightand" />
+        <activity android:name=".Lcmandhcf" />
+        <activity android:name=".Mensuration1" />
+        <activity android:name=".Mensuration2" />
+        <activity android:name=".Percentage" />
+        <activity android:name=".Pipeand" />
+        <activity android:name=".Power" />
+        <activity android:name=".Profit" />
+        <activity android:name=".Ratio" />
+        <activity android:name=".TimeandDistance" />
+        <activity android:name=".Simpleinterset" />
+        <activity android:name=".Timeandwork" />
+        <activity android:name=".Timeandwork2" />
+        <activity android:name=".Trigo1" />
+        <activity android:name=".Misceelous" />
+        <activity android:name=".Vikas" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".Hometab" />
+        <activity android:name=".Testtab" />
+        <activity android:name=".Tutorialtab" />
+        <activity android:name=".Profiletab"></activity>
+    </application>
+
+</manifest>
